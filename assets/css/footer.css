@@ -1,0 +1,147 @@
+/* Common */
+.footer {
+  background-color: #fbfbfb;
+}
+
+.footer .grid {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.footer__title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.87);
+  text-transform: uppercase;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__item {
+  margin-bottom: 12px;
+}
+
+.footer__item:hover .footer__link {
+  color: var(--primary-color);
+}
+
+.footer__link {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+  line-height: 15px;
+  max-width: 100%;
+  text-transform: capitalize;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+/* Collab */
+.footer__title.collab_ship {
+  margin-top: 0;
+}
+
+.footer__collab-list {
+  list-style: none;
+  margin-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer__collab-item {
+  padding: 4px;
+  margin: 0 8px 8px 0;
+  background-color: white;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+  width: 52px;
+  height: 22px;
+  box-sizing: content-box;
+}
+
+/* Follow */
+.footer__follow .footer__item {
+  height: 16px;
+}
+
+.footer__follow .footer__link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer__link-img {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+/* Download */
+.footer__download {
+}
+.footer__download-container {
+  display: flex;
+}
+
+.footer__download-qr img {
+  background-color: white;
+  padding: 4px;
+  width: 88px;
+  height: 88px;
+  margin-right: 12px;
+}
+
+.footer__download-app {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__download-app a {
+  padding: 4px;
+  margin-bottom: 8px;
+  background-color: white;
+  height: 24px;
+}
+
+.footer__download-app img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.chat {
+  position: fixed;
+  z-index: 999;
+  right: 8px;
+  bottom: 0px;
+}
+
+.chat-container {
+  position: relative;
+  width: 100px;
+  height: 48px;
+  display: flex;
+  padding: 12px;
+  background-color: white;
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 4px 20px 0 rgb(28 28 51 / 16%);
+  transition: all linear 0.3s;
+}
+
+.chat-container:hover {
+  transform: scale(1.1);
+}
+
+.chat-icon-start {
+  opacity: 1;
+  width: 24px;
+  height: 24px;
+  color: var(--primary-color);
+  margin-right: 8px;
+}
+
+.chat-icon-end {
+  width: 44px;
+  height: 22px;
+  color: var(--primary-color);
+}
